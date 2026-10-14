@@ -1,1 +1,56 @@
-/* Your CSS code here. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background-color:  #e5e5e5;
+  padding: 20px;
+}
+
+.nav-bar{
+  background-color: black;
+  padding: 15px;
+}
+
+nav ul{
+  padding: 0 25px;
+}
+
+nav li{
+    color: #e5e5e5;
+}
+
+nav p, a{
+  color: white;
+}
+
+main{
+  display: flex;
+}
+
+h2{
+  padding-bottom: 5px;
+}
+
+.main-section{
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.sidebar{
+  background-color: lightgray;
+  padding: 20px;
+  font-style: italic;
+}
+
+
+
+footer{
+  background-color: #e5e5e5;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
